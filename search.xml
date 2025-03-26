@@ -11,8 +11,12 @@
     <url>/2025/03/26/%E6%B5%8B%E5%BA%A6%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E5%8D%95%E8%B0%83%E7%B1%BB%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h1 id="sigma-代数方法"><a href="#sigma-代数方法" class="headerlink" title="sigma-代数方法"></a>sigma-代数方法</h1><p>设$\mathcal{F} $为一个集族，即“集合的集合”，我们要证明$\mathcal{F}$里面的元素都具有某种性质$\mathcal{P}$，如果$\mathcal{F} &#x3D; \sigma(\mathcal{A})$，那么我们可以按照以下步骤来证明：</p>
 <ol>
-<li>设所有具有性质$\mathcal{P}$的集合的集合为$\mathcal{B}$</li>
+<li>设所有具有性质$\mathcal{P}$的集合的集合为$\mathcal{B}$，下面我们只需证明$\mathcal{F} \subset \mathcal{B}$</li>
+<li>证明$\mathcal{B}$是一个$\sigma$-代数</li>
+<li>证明$<br>\mathcal{A} \subset \mathcal{B}<br>$，然后由于$<br> \mathcal{F} &#x3D;\sigma \left( \mathcal{A} \right) \subset \sigma \left( \mathcal{B} \right) \xlongequal{\mathcal{B} \text{为}\sigma -\text{代数}}\mathcal{B}<br>$，我们就已经证明了$\mathcal{F}$中的元素都具有性质$\mathcal{P}$</li>
 </ol>
+<h1 id="单调类方法"><a href="#单调类方法" class="headerlink" title="单调类方法"></a>单调类方法</h1><p>由于markdown不支持在标题里面输入公式，所以在这里用正文给出“单调类”方法的另一个名字————$\pi$-$\lambda$定理，也叫Dynkin Class定理</p>
+<h2 id="lambda类"><a href="#lambda类" class="headerlink" title="lambda类"></a>lambda类</h2><p>$\lambda$类</p>
 ]]></content>
       <categories>
         <category>分析</category>
