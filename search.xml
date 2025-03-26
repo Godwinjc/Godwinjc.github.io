@@ -3,7 +3,7 @@
   <entry>
     <title>测度论笔记·单调类方法</title>
     <url>/2025/03/26/hello-world/</url>
-    <content><![CDATA[<h1 id="TEST"><a href="#TEST" class="headerlink" title="TEST"></a>TEST</h1><p>$$<br>\left| f \right| <em>p&#x3D;\left( \int</em>{\varOmega}{\left| f \right|^p} \right) ^{\frac{1}{p}}<br>$$</p>
+    <content><![CDATA[<h1 id="TEST"><a href="#TEST" class="headerlink" title="TEST"></a>TEST</h1><p>$$<br>\int_{0}^{\infty} e^{-x^2} dx &#x3D; \frac{\sqrt{\pi}}{2}<br>$$</p>
 ]]></content>
   </entry>
 </search>
