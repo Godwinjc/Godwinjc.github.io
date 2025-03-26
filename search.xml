@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测度论笔记01·单调类方法</title>
+    <url>/2025/03/26/%E6%B5%8B%E5%BA%A6%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E5%8D%95%E8%B0%83%E7%B1%BB%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="sigma-代数方法"><a href="#sigma-代数方法" class="headerlink" title="sigma-代数方法"></a>sigma-代数方法</h1><p>设$\mathcal{F} $为一个集族，即“集合的集合”，我们要证明$\mathcal{F}$里面的元素都具有某种性质$\mathcal{P}$，如果$\mathcal{F} &#x3D; \sigma(\mathcal{A})$，那么我们可以按照以下步骤来证明：</p>
+<ol>
+<li>设所有具有性质$\mathcal{P}$的集合的集合为$\mathcal{B}$</li>
+</ol>
+]]></content>
+      <categories>
+        <category>分析</category>
+      </categories>
+      <tags>
+        <tag>测度论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>TEST</title>
     <url>/2025/03/26/hello-world/</url>
     <content><![CDATA[<h1 id="TEST"><a href="#TEST" class="headerlink" title="TEST"></a>TEST</h1><p>$$<br>\int_{0}^{\infty} e^{-x^2} dx &#x3D; \frac{\sqrt{\pi}}{2}<br>$$</p>
