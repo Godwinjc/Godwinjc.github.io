@@ -189,6 +189,97 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://godwinjc.github.io/2025/03/27/%E5%B8%B8%E7%94%A8Riemann%E7%A7%AF%E5%88%86%E5%85%AC%E5%BC%8F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Godwinjc">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Godwinjc's notes">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/03/27/%E5%B8%B8%E7%94%A8Riemann%E7%A7%AF%E5%88%86%E5%85%AC%E5%BC%8F/" class="post-title-link" itemprop="url">常用Riemann积分公式</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2025-03-27 13:31:17 / 修改时间：13:38:41" itemprop="dateCreated datePublished" datetime="2025-03-27T13:31:17+08:00">2025-03-27</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%89%A9%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">物理</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="常用Riemann积分公式"><a href="#常用Riemann积分公式" class="headerlink" title="常用Riemann积分公式"></a>常用Riemann积分公式</h1><p>$$<br>\int \frac{x}{\sqrt{ax+b}},\mathrm{d}x &#x3D; \frac{2}{3a^2}(ax - 2b)\sqrt{ax + b}<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{x^2 - a^2} &#x3D; \frac{1}{2a} \ln\left| \frac{x - a}{x + a} \right|<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{x^2 + a^2} &#x3D; \frac{1}{a} \arctan\left( \frac{x}{a} \right)<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{ax^2 + bx + c} &#x3D;<br>\begin{cases}<br>\frac{2}{\sqrt{-\Delta}} \arctan\left( \frac{2ax + b}{\sqrt{-\Delta}} \right), &amp; \Delta &lt; 0 \<br>\frac{1}{\sqrt{\Delta}} \ln\left| \frac{2ax + b - \sqrt{\Delta}}{2ax + b + \sqrt{\Delta}} \right|, &amp; \Delta &gt; 0<br>\end{cases}<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{x^2 + a^2}} &#x3D; \ln\left| x + \sqrt{x^2 + a^2} \right|<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{x^2 - a^2}} &#x3D; \ln\left| x + \sqrt{x^2 - a^2} \right|<br>$$</p>
+<p>$$<br>\text{上面两个式子可以归并为}<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{x^2 + y}} &#x3D; \ln\left| x + \sqrt{x^2 + y} \right| \quad (\text{不论} , y , \text{的正负})<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{(x^2 + a^2)^{3&#x2F;2}} &#x3D; \frac{x}{a^2 \sqrt{x^2 + a^2}}<br>$$</p>
+<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{a^2 - x^2}} &#x3D; \arcsin\left( \frac{x}{a} \right)<br>$$</p>
+<p>$$<br>\int \sqrt{x^2 + a^2} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{x^2 + a^2} + \frac{a^2}{2} \ln\left| x + \sqrt{x^2 + a^2} \right|<br>$$</p>
+<p>$$<br>\int \sqrt{x^2 - a^2} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{x^2 - a^2} - \frac{a^2}{2} \ln\left| x + \sqrt{x^2 - a^2} \right|<br>$$</p>
+<p>$$<br>\text{上面两个式子可以归并为}<br>$$</p>
+<p>$$<br>\int \sqrt{x^2 + y} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{x^2 + y} + \frac{y}{2} \ln\left| x + \sqrt{x^2 + y} \right|<br>\quad (\text{不论} , y , \text{的正负})<br>$$</p>
+<p>$$<br>\int \sqrt{a^2 - x^2} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{a^2 - x^2} + \frac{a^2}{2} \arcsin\left( \frac{x}{a} \right)<br>$$</p>
+<p>$$<br>\int a^x ,\mathrm{d}x &#x3D; \frac{a^x}{\ln a}<br>$$</p>
+<p>$$<br>\int \tan x ,\mathrm{d}x &#x3D; -\ln\left| \cos x \right|<br>$$</p>
+<p>$$<br>\int \cot x ,\mathrm{d}x &#x3D; \ln\left| \sin x \right|<br>$$</p>
+<p>$$<br>\int \sec x ,\mathrm{d}x &#x3D; \ln\left| \tan\left( \frac{x}{2} + \frac{\pi}{4} \right) \right| &#x3D; \ln(\sec x + \tan x)<br>$$</p>
+<p>$$<br>\int \csc x ,\mathrm{d}x &#x3D; \ln\left| \tan\left( \frac{x}{2} \right) \right|<br>$$</p>
+<p>$$<br>\int \sec^2 x ,\mathrm{d}x &#x3D; \tan x<br>$$</p>
+<p>$$<br>\int \csc^2 x ,\mathrm{d}x &#x3D; -\cot x<br>$$</p>
+<p><strong>万能替换公式</strong>：</p>
+<p>$$<br>\mathrm{d}x &#x3D; \frac{2}{1 + t^2} ,\mathrm{d}t, \quad<br>\sin x &#x3D; \frac{2t}{1 + t^2}, \quad<br>\cos x &#x3D; \frac{1 - t^2}{1 + t^2}, \quad<br>t &#x3D; \tan\left( \frac{x}{2} \right)<br>$$</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://godwinjc.github.io/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -454,20 +545,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
