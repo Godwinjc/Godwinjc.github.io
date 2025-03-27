@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>概率论笔记01·概率测度空间的建立</title>
+    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>概率论</category>
+      </categories>
+      <tags>
+        <tag>概率与随机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>TEST</title>
     <url>/2025/03/26/hello-world/</url>
     <content><![CDATA[<h1 id="TEST"><a href="#TEST" class="headerlink" title="TEST"></a>TEST</h1><p>$$<br>\int_{0}^{\infty} e^{-x^2} dx &#x3D; \frac{\sqrt{\pi}}{2}<br>$$</p>
@@ -23,17 +34,6 @@
       </categories>
       <tags>
         <tag>测度论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论笔记01·概率测度空间的建立</title>
-    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>概率论</category>
-      </categories>
-      <tags>
-        <tag>概率与随机</tag>
       </tags>
   </entry>
 </search>
