@@ -7,36 +7,46 @@
 
 <span id="more"></span>
 
-<p>$$<br>\int \frac{x}{\sqrt{ax+b}},\mathrm{d}x &#x3D; \frac{2}{3a^2}(ax - 2b)\sqrt{ax + b}<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{x^2 - a^2} &#x3D; \frac{1}{2a} \ln\left| \frac{x - a}{x + a} \right|<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{x^2 + a^2} &#x3D; \frac{1}{a} \arctan\left( \frac{x}{a} \right)<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{ax^2 + bx + c} &#x3D;<br>\begin{cases}<br>\frac{2}{\sqrt{-\Delta}} \arctan\left( \frac{2ax + b}{\sqrt{-\Delta}} \right), &amp; \Delta &lt; 0 \<br>\frac{1}{\sqrt{\Delta}} \ln\left| \frac{2ax + b - \sqrt{\Delta}}{2ax + b + \sqrt{\Delta}} \right|, &amp; \Delta &gt; 0<br>\end{cases}<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{x^2 + a^2}} &#x3D; \ln\left| x + \sqrt{x^2 + a^2} \right|<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{x^2 - a^2}} &#x3D; \ln\left| x + \sqrt{x^2 - a^2} \right|<br>$$</p>
+<p>$$<br>\int{\frac{x}{\sqrt{ax+b}}\mathrm{d}x&#x3D;\frac{2}{3a^2}\left( ax-2b \right) \sqrt{ax+b}}<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{x^2-a^2}&#x3D;\frac{1}{2a}\ln \left| \frac{x-a}{x+a} \right|}<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{x^2+a^2}&#x3D;\frac{1}{a}\mathrm{arc}\tan \frac{x}{a}}<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{ax^2+bx+c}}&#x3D;\begin{cases}<br>	\frac{2}{\sqrt{-\Delta}}\mathrm{arc}\tan \frac{2ax+b}{\sqrt{-\Delta}}\text{，}\Delta &lt;0\<br>	\frac{1}{\sqrt{\Delta}}\ln \left| \frac{2ax+b-\sqrt{\Delta}}{2ax+b+\sqrt{\Delta}} \right|\text{，}\Delta &gt;0\<br>\end{cases}<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}&#x3D;\ln \left| x+\sqrt{x^2+a^2} \right|}<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{\sqrt{x^2-a^2}}&#x3D;\ln \left| x+\sqrt{x^2-a^2} \right|}<br>\<br>$$</p>
 <p>$$<br>\text{上面两个式子可以归并为}<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{x^2 + y}} &#x3D; \ln\left| x + \sqrt{x^2 + y} \right| \quad (\text{不论} , y , \text{的正负})<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{(x^2 + a^2)^{3&#x2F;2}} &#x3D; \frac{x}{a^2 \sqrt{x^2 + a^2}}<br>$$</p>
-<p>$$<br>\int \frac{\mathrm{d}x}{\sqrt{a^2 - x^2}} &#x3D; \arcsin\left( \frac{x}{a} \right)<br>$$</p>
-<p>$$<br>\int \sqrt{x^2 + a^2} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{x^2 + a^2} + \frac{a^2}{2} \ln\left| x + \sqrt{x^2 + a^2} \right|<br>$$</p>
-<p>$$<br>\int \sqrt{x^2 - a^2} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{x^2 - a^2} - \frac{a^2}{2} \ln\left| x + \sqrt{x^2 - a^2} \right|<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{\sqrt{x^2+y}}&#x3D;\ln \left| x+\sqrt{x^2+y} \right|}\left( \text{不论}y\text{的正负} \right)<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{\left( x^2+a^2 \right) ^{\frac{3}{2}}}&#x3D;\frac{x}{a^2\sqrt{x^2+a^2}}}<br>\<br>$$</p>
+<p>$$<br>\int{\frac{\mathrm{d}x}{\sqrt{a^2-x^2}}}&#x3D;\mathrm{arc}\sin \frac{x}{a}<br>\<br>$$</p>
+<p>$$<br>\int{\sqrt{x^2+a^2}}\mathrm{d}x&#x3D;\frac{x}{2}\sqrt{x^2+a^2}+\frac{a^2}{2}\ln \left| x+\sqrt{x^2+a^2} \right|<br>\<br>$$</p>
+<p>$$<br>\int{\sqrt{x^2-a^2}}\mathrm{d}x&#x3D;\frac{x}{2}\sqrt{x^2-a^2}-\frac{a^2}{2}\ln \left| x+\sqrt{x^2-a^2} \right|<br>\<br>$$</p>
 <p>$$<br>\text{上面两个式子可以归并为}<br>$$</p>
-<p>$$<br>\int \sqrt{x^2 + y} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{x^2 + y} + \frac{y}{2} \ln\left| x + \sqrt{x^2 + y} \right|<br>\quad (\text{不论} , y , \text{的正负})<br>$$</p>
-<p>$$<br>\int \sqrt{a^2 - x^2} ,\mathrm{d}x &#x3D;<br>\frac{x}{2} \sqrt{a^2 - x^2} + \frac{a^2}{2} \arcsin\left( \frac{x}{a} \right)<br>$$</p>
-<p>$$<br>\int a^x ,\mathrm{d}x &#x3D; \frac{a^x}{\ln a}<br>$$</p>
-<p>$$<br>\int \tan x ,\mathrm{d}x &#x3D; -\ln\left| \cos x \right|<br>$$</p>
-<p>$$<br>\int \cot x ,\mathrm{d}x &#x3D; \ln\left| \sin x \right|<br>$$</p>
-<p>$$<br>\int \sec x ,\mathrm{d}x &#x3D; \ln\left| \tan\left( \frac{x}{2} + \frac{\pi}{4} \right) \right| &#x3D; \ln(\sec x + \tan x)<br>$$</p>
-<p>$$<br>\int \csc x ,\mathrm{d}x &#x3D; \ln\left| \tan\left( \frac{x}{2} \right) \right|<br>$$</p>
-<p>$$<br>\int \sec^2 x ,\mathrm{d}x &#x3D; \tan x<br>$$</p>
-<p>$$<br>\int \csc^2 x ,\mathrm{d}x &#x3D; -\cot x<br>$$</p>
-<p><strong>万能替换公式</strong>：</p>
-<p>$$<br>\mathrm{d}x &#x3D; \frac{2}{1 + t^2} ,\mathrm{d}t, \quad<br>\sin x &#x3D; \frac{2t}{1 + t^2}, \quad<br>\cos x &#x3D; \frac{1 - t^2}{1 + t^2}, \quad<br>t &#x3D; \tan\left( \frac{x}{2} \right)<br>$$</p>
+<p>$$<br>\int{\sqrt{x^2+y}}\mathrm{d}x&#x3D;\frac{x}{2}\sqrt{x^2+y}+\frac{y}{2}\ln \left| x+\sqrt{x^2+y} \right|\left( \text{不论}y\text{的正负} \right)<br>\<br>$$</p>
+<p>$$<br>\int{\sqrt{a^2-x^2}}\mathrm{d}x&#x3D;\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\mathrm{arc}\sin \frac{x}{a}<br>\<br>$$</p>
+<p>$$<br>\int{a^x}\mathrm{d}x&#x3D;\frac{a^x}{\ln a}<br>\<br>$$</p>
+<p>$$<br>\int{\tan x\mathrm{d}x&#x3D;-\ln \left| \cos x \right|}<br>\<br>$$</p>
+<p>$$<br>\int{\cot x\mathrm{d}x&#x3D;}\ln \left| \sin x \right|<br>\<br>$$</p>
+<p>$$<br>\int{\sec x\mathrm{d}x&#x3D;}\ln \left| \tan \left( \frac{x}{2}+\frac{\pi}{4} \right) \right|&#x3D;\ln \left( \sec x+\tan x \right)<br>\<br>$$</p>
+<p>$$<br>\int{\csc x\mathrm{d}x&#x3D;}\ln \left| \tan \left( \frac{x}{2} \right) \right|<br>\<br>$$</p>
+<p>$$<br>\int{\sec ^2x\mathrm{d}x&#x3D;}\tan x<br>\<br>$$</p>
+<p>$$<br>\int{\csc ^2x\mathrm{d}x&#x3D;}-\cot x<br>\<br>$$</p>
+<p>$$<br>\text{万能替换}:<br>\<br>\mathrm{d}x&#x3D;\frac{2}{1+t^2}\mathrm{d}t,\sin x&#x3D;\frac{2t}{1+t^2},\cos x&#x3D;\frac{1-t^2}{1+t^2},t&#x3D;\tan \left( \frac{x}{2} \right)<br>$$</p>
 ]]></content>
       <categories>
         <category>物理</category>
       </categories>
       <tags>
         <tag>积分表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论笔记01·概率测度空间的建立</title>
+    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
+    <content><![CDATA[<span id="more"></span>]]></content>
+      <categories>
+        <category>概率论</category>
+      </categories>
+      <tags>
+        <tag>概率与随机</tag>
       </tags>
   </entry>
   <entry>
@@ -60,17 +70,6 @@
       </categories>
       <tags>
         <tag>测度论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论笔记01·概率测度空间的建立</title>
-    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <categories>
-        <category>概率论</category>
-      </categories>
-      <tags>
-        <tag>概率与随机</tag>
       </tags>
   </entry>
 </search>
