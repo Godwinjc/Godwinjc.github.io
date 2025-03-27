@@ -9,7 +9,9 @@
   <entry>
     <title>常用Riemann积分公式</title>
     <url>/2025/03/27/%E5%B8%B8%E7%94%A8Riemann%E7%A7%AF%E5%88%86%E5%85%AC%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="常用Riemann积分公式"><a href="#常用Riemann积分公式" class="headerlink" title="常用Riemann积分公式"></a>常用Riemann积分公式</h1><p>$$<br>\int \frac{x}{\sqrt{ax+b}},\mathrm{d}x &#x3D; \frac{2}{3a^2}(ax - 2b)\sqrt{ax + b}<br>$$</p>
+    <content><![CDATA[<h1 id="常用Riemann积分公式"><a href="#常用Riemann积分公式" class="headerlink" title="常用Riemann积分公式"></a>常用Riemann积分公式</h1><span id="more"></span>
+
+<p>$$<br>\int \frac{x}{\sqrt{ax+b}},\mathrm{d}x &#x3D; \frac{2}{3a^2}(ax - 2b)\sqrt{ax + b}<br>$$</p>
 <p>$$<br>\int \frac{\mathrm{d}x}{x^2 - a^2} &#x3D; \frac{1}{2a} \ln\left| \frac{x - a}{x + a} \right|<br>$$</p>
 <p>$$<br>\int \frac{\mathrm{d}x}{x^2 + a^2} &#x3D; \frac{1}{a} \arctan\left( \frac{x}{a} \right)<br>$$</p>
 <p>$$<br>\int \frac{\mathrm{d}x}{ax^2 + bx + c} &#x3D;<br>\begin{cases}<br>\frac{2}{\sqrt{-\Delta}} \arctan\left( \frac{2ax + b}{\sqrt{-\Delta}} \right), &amp; \Delta &lt; 0 \<br>\frac{1}{\sqrt{\Delta}} \ln\left| \frac{2ax + b - \sqrt{\Delta}}{2ax + b + \sqrt{\Delta}} \right|, &amp; \Delta &gt; 0<br>\end{cases}<br>$$</p>
