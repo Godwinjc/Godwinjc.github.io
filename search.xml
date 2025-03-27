@@ -39,35 +39,6 @@
       </tags>
   </entry>
   <entry>
-    <title>测度论笔记01·单调类方法</title>
-    <url>/2025/03/26/%E6%B5%8B%E5%BA%A6%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E5%8D%95%E8%B0%83%E7%B1%BB%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<div align="center">单调类方法在证明“某种性质的延拓”中的应用</div>
-
-<span id="more"></span>
-
-<h1 id="sigma-代数方法"><a href="#sigma-代数方法" class="headerlink" title="sigma-代数方法"></a>sigma-代数方法</h1><p>设$\mathcal{F} $为一个集族，即“集合的集合”，我们要证明$\mathcal{F}$里面的元素都具有某种性质$\mathcal{P}$，如果$\mathcal{F} &#x3D; \sigma(\mathcal{A})$，那么我们可以按照以下步骤来证明：</p>
-<ol>
-<li>设所有具有性质$\mathcal{P}$的集合的集合为$\mathcal{B}$，下面我们只需证明$\mathcal{F} \subset \mathcal{B}$</li>
-<li>证明$\mathcal{B}$是一个$\sigma$-代数</li>
-<li>证明$<br>\mathcal{A} \subset \mathcal{B}<br>$，然后由于$<br> \mathcal{F} &#x3D;\sigma \left( \mathcal{A} \right) \subset \sigma \left( \mathcal{B} \right) \xlongequal{\mathcal{B} \text{为}\sigma -\text{代数}}\mathcal{B}<br>$，我们就已经证明了$\mathcal{F}$中的元素都具有性质$\mathcal{P}$</li>
-</ol>
-<h1 id="单调类方法"><a href="#单调类方法" class="headerlink" title="单调类方法"></a>单调类方法</h1><p>由于markdown不支持在标题里面输入公式，所以在这里用正文给出“单调类”方法的另一个名字——$\pi$-$\lambda$定理，也叫Dynkin Class定理</p>
-<h2 id="lambda类与Dynkin-Class"><a href="#lambda类与Dynkin-Class" class="headerlink" title="lambda类与Dynkin Class"></a>lambda类与Dynkin Class</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\mathcal{A}$满足以下三条，就称它为$\lambda$类，也叫Dynkin Class</p>
-<ol>
-<li>$X \in \mathcal{A}$</li>
-<li>$\forall A \subset B$，且$A,B \in \mathcal{A}$，这两点同时满足的集合对$A,B$，有$B - A \in \mathcal{A}$（对“真差”封闭）</li>
-<li>$\forall A_n \uparrow$ 为 $\mathcal{A}$ 中的递增集合列，即 $A_n \subset A_{n+1}$ （$\forall n \in \mathbb{N}$），且$A_n \in \mathcal{A}$ （$\forall n \in \mathbb{N}$）两点同时满足，则有：$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcup_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
-</ol>
-<p>记忆方法：“lambda $\approx $ lim $+$ diff”，其中“lim”对应第三个条件，“diff”对应第二个条件</p>
-<h2 id="pi类"><a href="#pi类" class="headerlink" title="pi类"></a>pi类</h2>]]></content>
-      <categories>
-        <category>分析</category>
-      </categories>
-      <tags>
-        <tag>测度论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>概率论笔记01·概率测度空间的建立</title>
     <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
     <content><![CDATA[<span id="more"></span>]]></content>
@@ -76,6 +47,36 @@
       </categories>
       <tags>
         <tag>概率与随机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测度论笔记01·单调类方法</title>
+    <url>/2025/03/26/%E6%B5%8B%E5%BA%A6%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E5%8D%95%E8%B0%83%E7%B1%BB%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<div align="center">单调类方法在证明“某种性质的延拓”中的应用</div>
+
+<span id="more"></span>
+
+<h1 id="sigma-代数方法"><a href="#sigma-代数方法" class="headerlink" title="$\sigma$-代数方法"></a>$\sigma$-代数方法</h1><p>设$\mathcal{F} $为一个集族，即“集合的集合”，我们要证明$\mathcal{F}$里面的元素都具有某种性质$\mathcal{P}$，如果$\mathcal{F} &#x3D; \sigma(\mathcal{A})$，那么我们可以按照以下步骤来证明：</p>
+<ol>
+<li>设所有具有性质$\mathcal{P}$的集合的集合为$\mathcal{B}$，下面我们只需证明$\mathcal{F} \subset \mathcal{B}$</li>
+<li>证明$\mathcal{B}$是一个$\sigma$-代数</li>
+<li>证明$<br>\mathcal{A} \subset \mathcal{B}<br>$，然后由于$<br> \mathcal{F} &#x3D;\sigma \left( \mathcal{A} \right) \subset \sigma \left( \mathcal{B} \right) \xlongequal{\mathcal{B} \text{为}\sigma -\text{代数}}\mathcal{B}<br>$，我们就已经证明了$\mathcal{F}$中的元素都具有性质$\mathcal{P}$</li>
+</ol>
+<h1 id="pi-lambda-定理，Dynkin-Class定理"><a href="#pi-lambda-定理，Dynkin-Class定理" class="headerlink" title="$\pi$-$\lambda$定理，Dynkin Class定理"></a>$\pi$-$\lambda$定理，Dynkin Class定理</h1><p>$\pi$-$\lambda$定理也叫Dynkin Class定理</p>
+<h2 id="lambda-类与Dynkin-Class"><a href="#lambda-类与Dynkin-Class" class="headerlink" title="$\lambda$类与Dynkin Class"></a>$\lambda$类与Dynkin Class</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\mathcal{A}$满足以下三条，就称它为$\lambda$类，也叫Dynkin Class</p>
+<ol>
+<li>$X \in \mathcal{A}$</li>
+<li>$\forall A \subset B$，且$A,B \in \mathcal{A}$，这两点同时满足的集合对$A,B$，有$B - A \in \mathcal{A}$（对“真差”封闭）</li>
+<li>$\forall A_n \uparrow$ 为 $\mathcal{A}$ 中的递增集合列，即 $A_n \subset A_{n+1}$ （$\forall n \in \mathbb{N}$），且$A_n \in \mathcal{A}$ （$\forall n \in \mathbb{N}$）两点同时满足，则有：$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcup_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
+</ol>
+<p>记忆方法：“lambda $\approx $ lim $+$ diff”，其中“lim”对应第三个条件，“diff”对应第二个条件</p>
+<h2 id="pi-类"><a href="#pi-类" class="headerlink" title="$\pi$类"></a>$\pi$类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\forall A,B \in \mathcal{A}$，都有$A \cap B \in \mathcal{A}$，则称$\mathcal{A}$为一个$\pi$类，注意$\pi$类在<strong>有限</strong>交运算下是封闭的，而在可数交甚至任意交运算下不一定封闭</p>
+]]></content>
+      <categories>
+        <category>分析</category>
+      </categories>
+      <tags>
+        <tag>测度论</tag>
       </tags>
   </entry>
 </search>
