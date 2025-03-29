@@ -52,17 +52,23 @@
 <li>证明$<br>\mathcal{A} \subset \mathcal{B}<br>$，然后由于$<br> \mathcal{F} &#x3D;\sigma \left( \mathcal{A} \right) \subset \sigma \left( \mathcal{B} \right) \xlongequal{\mathcal{B} \text{为}\sigma -\text{代数}}\mathcal{B}<br>$，我们就已经证明了$\mathcal{F}$中的元素都具有性质$\mathcal{P}$</li>
 </ol>
 <h1 id="pi-lambda-定理，Dynkin-Class定理"><a href="#pi-lambda-定理，Dynkin-Class定理" class="headerlink" title="$\pi$-$\lambda$定理，Dynkin Class定理"></a>$\pi$-$\lambda$定理，Dynkin Class定理</h1><p>$\pi$-$\lambda$定理也叫Dynkin Class定理</p>
-<h2 id="lambda-类与Dynkin-Class"><a href="#lambda-类与Dynkin-Class" class="headerlink" title="$\lambda$类与Dynkin Class"></a>$\lambda$类与Dynkin Class</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\mathcal{A}$满足以下三条，就称它为$\boldsymbol{\lambda}$<strong>类</strong>，也叫<strong>Dynkin Class</strong></p>
+<h2 id="lambda-类与Dynkin-Class"><a href="#lambda-类与Dynkin-Class" class="headerlink" title="$\lambda$类与Dynkin Class"></a>$\lambda$类与Dynkin Class</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\mathcal{A}$满足以下三条，就称它为（$X$上的）$\boldsymbol{\lambda}$<strong>类</strong>，也叫<strong>Dynkin Class</strong></p>
 <ol>
 <li>$X \in \mathcal{A}$</li>
 <li>$\forall A \subset B$，且$A,B \in \mathcal{A}$，这两点同时满足的集合对$A,B$，有$B - A \in \mathcal{A}$（对“真差”封闭）</li>
 <li>$\forall A_n \uparrow$ 为 $\mathcal{A}$ 中的递增集合列，即 $A_n \subset A_{n+1}$ （$\forall n \in \mathbb{N}$），且$A_n \in \mathcal{A}$ （$\forall n \in \mathbb{N}$）两点同时满足，则有：$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcup_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
 </ol>
 <p>记忆方法：“lambda $\approx $ lim $+$ diff”，其中“lim”对应第三个条件，“diff”对应第二个条件</p>
-<h2 id="pi-类"><a href="#pi-类" class="headerlink" title="$\pi$类"></a>$\pi$类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\forall A,B \in \mathcal{A}$，都有$A \cap B \in \mathcal{A}$，则称$\mathcal{A}$为一个$\boldsymbol{\pi}$<strong>类</strong>，注意$\pi$类在<strong>有限</strong>交运算下是封闭的，而在可数交甚至任意交运算下不一定封闭</p>
+<p><strong>任何一族（不论可不可数）</strong>$\boldsymbol{\lambda}$<strong>类的并也是</strong>$\boldsymbol{\lambda}$类，于是设$\mathcal{C}\subset\mathcal{P}(X)$为任意一个集族（注意$\boldsymbol{\mathcal{C}}$<strong>不一定是</strong>$\boldsymbol{\lambda}$<strong>类</strong>）我们称</p>
+<p>$$<br>\lambda \left( \mathcal{C} \right) \xlongequal{\triangle} d\left( \mathcal{C} \right) \xlongequal{\triangle}\bigcap_{\mathcal{C} \subset \mathcal{B} ,\mathcal{B} \text{为}X \text{上的}\lambda \text{类}}{\mathcal{B}}<br>$$</p>
+<p>为<strong>从</strong>$\boldsymbol{\mathcal{C}}$<strong>生成的</strong>$\boldsymbol{\lambda}$<strong>类</strong>，也叫<strong>从</strong>$\boldsymbol{\mathcal{C}}$<strong>生成的Dynkin Class</strong></p>
+<h2 id="pi-类"><a href="#pi-类" class="headerlink" title="$\pi$类"></a>$\pi$类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\forall A,B \in \mathcal{A}$，都有$A \cap B \in \mathcal{A}$，则称$\mathcal{A}$为一个（$X$上的）$\boldsymbol{\pi}$<strong>类</strong>，注意$\pi$类在<strong>有限</strong>交运算下是封闭的，而在可数交甚至任意交运算下不一定封闭</p>
 <p>记忆方法：“$\pi &#x3D; \Pi$” 表示连乘，在概率论中事件$A\cap B$也记作事件$AB$，由此可知$\pi$类关于<strong>有限</strong>交运算封闭</p>
-<h2 id="pi-lambda-定理（Dynkin定理）"><a href="#pi-lambda-定理（Dynkin定理）" class="headerlink" title="$\pi$-$\lambda$定理（Dynkin定理）"></a>$\pi$-$\lambda$定理（Dynkin定理）</h2><p>假设$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，那么$\mathcal{A}$为$\sigma$-代数 $\Leftrightarrow$ $\mathcal{A}$既为$\lambda$类又为$\pi$类</p>
-<h1 id="单调类定理"><a href="#单调类定理" class="headerlink" title="单调类定理"></a>单调类定理</h1><h2 id="m-类、单调类"><a href="#m-类、单调类" class="headerlink" title="$m$类、单调类"></a>$m$类、单调类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，$A_1,A_2,\dots \in \mathcal{A}$为$\mathcal{A}$中的集合列，如果$A_1,A_2,\dots$满足下列二者之一，就称它为<strong>单调类</strong>或$\boldsymbol{m}$<strong>类</strong></p>
+<h2 id="pi-lambda-定理（Dynkin定理）"><a href="#pi-lambda-定理（Dynkin定理）" class="headerlink" title="$\pi$-$\lambda$定理（Dynkin定理）"></a>$\pi$-$\lambda$定理（Dynkin定理）</h2><p>设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个$X$上的$\pi$类，那么</p>
+<p>$$<br>\sigma(\mathcal{A})&#x3D;\lambda(\mathcal{A})&#x3D;d(\mathcal{A})<br>$$</p>
+<p>进一步，假设$\mathcal{A}$本身就是一个（$X$上的）$\lambda$类，那么$\lambda(\mathcal{A})&#x3D;d(\mathcal{A})&#x3D;\mathcal{A}\xlongequal{Dynkin\text{定理}} \sigma(\mathcal{A})$，也即$\mathcal{A}&#x3D;\sigma(\mathcal{A})$为一个$\sigma$-代数，也即</p>
+<p>$$<br>\mathcal{A}\text{为}\sigma\text{-代数} \Leftrightarrow\mathcal{A}\text{既为}\lambda \text{类又为}\pi\text{类}<br>$$</p>
+<h1 id="单调类定理"><a href="#单调类定理" class="headerlink" title="单调类定理"></a>单调类定理</h1><h2 id="m-类、单调类"><a href="#m-类、单调类" class="headerlink" title="$m$类、单调类"></a>$m$类、单调类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，$A_1,A_2,\dots \in \mathcal{A}$为$\mathcal{A}$中的集合列，如果$A_1,A_2,\dots$满足下列二者之一，就称它为（$X$上的）<strong>单调类</strong>或$\boldsymbol{m}$<strong>类</strong></p>
 <ol>
 <li>$A_i\uparrow$，则$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcup_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
 <li>$A_i\downarrow$，则$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcap_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
