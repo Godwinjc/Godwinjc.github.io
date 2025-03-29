@@ -61,11 +61,19 @@
 <p>记忆方法：“lambda $\approx $ lim $+$ diff”，其中“lim”对应第三个条件，“diff”对应第二个条件</p>
 <h2 id="pi-类"><a href="#pi-类" class="headerlink" title="$\pi$类"></a>$\pi$类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\forall A,B \in \mathcal{A}$，都有$A \cap B \in \mathcal{A}$，则称$\mathcal{A}$为一个$\boldsymbol{\pi}$<strong>类</strong>，注意$\pi$类在<strong>有限</strong>交运算下是封闭的，而在可数交甚至任意交运算下不一定封闭</p>
 <p>记忆方法：“$\pi &#x3D; \Pi$” 表示连乘，在概率论中事件$A\cap B$也记作事件$AB$，由此可知$\pi$类关于<strong>有限</strong>交运算封闭</p>
-<h2 id="m-类、单调类"><a href="#m-类、单调类" class="headerlink" title="$m$类、单调类"></a>$m$类、单调类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，$A_1,A_2,\dots \in \mathcal{A}$为$\mathcal{A}$中的集合列，如果$A_1,A_2,\dots$满足下列二者之一，就称它为<strong>单调类</strong></p>
+<h2 id="pi-lambda-定理（Dynkin定理）"><a href="#pi-lambda-定理（Dynkin定理）" class="headerlink" title="$\pi$-$\lambda$定理（Dynkin定理）"></a>$\pi$-$\lambda$定理（Dynkin定理）</h2><p>假设$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，那么$\mathcal{A}$为$\sigma$-代数 $\Leftrightarrow$ $\mathcal{A}$既为$\lambda$类又为$\pi$类</p>
+<h1 id="单调类定理"><a href="#单调类定理" class="headerlink" title="单调类定理"></a>单调类定理</h1><h2 id="m-类、单调类"><a href="#m-类、单调类" class="headerlink" title="$m$类、单调类"></a>$m$类、单调类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，$A_1,A_2,\dots \in \mathcal{A}$为$\mathcal{A}$中的集合列，如果$A_1,A_2,\dots$满足下列二者之一，就称它为<strong>单调类</strong>或$\boldsymbol{m}$<strong>类</strong></p>
 <ol>
 <li>$A_i\uparrow$，则$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcup_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
 <li>$A_i\downarrow$，则$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcap_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
 </ol>
+<h2 id="代数"><a href="#代数" class="headerlink" title="代数"></a>代数</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，如果$\mathcal{A}$满足以下3点，就称它为一个<strong>代数</strong></p>
+<ol>
+<li>$X\in \mathcal{A}$</li>
+<li>$\forall A \in \mathcal{A}, A^c \in \mathcal{A}$</li>
+<li>$\forall A_1, A_2 \in \mathcal{A}, A_1\cap A_2 \in \mathcal{A}$</li>
+</ol>
+<h2 id="单调类定理-1"><a href="#单调类定理-1" class="headerlink" title="单调类定理"></a>单调类定理</h2><p>假设$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，那么$\mathcal{A}$为$\sigma$-代数 $\Leftrightarrow$ $\mathcal{A}$既为代数又为单调类</p>
 ]]></content>
       <categories>
         <category>分析</category>
