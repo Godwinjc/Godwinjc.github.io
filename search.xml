@@ -39,6 +39,17 @@
       </tags>
   </entry>
   <entry>
+    <title>概率论笔记01·概率测度空间的建立</title>
+    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
+    <content><![CDATA[<span id="more"></span>]]></content>
+      <categories>
+        <category>概率论</category>
+      </categories>
+      <tags>
+        <tag>概率与随机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>测度论笔记01·单调类方法</title>
     <url>/2025/03/26/%E6%B5%8B%E5%BA%A6%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E5%8D%95%E8%B0%83%E7%B1%BB%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<div align="center">单调类方法在证明“某种性质的延拓”中的应用</div>
@@ -68,6 +79,10 @@
 <p>$$<br>\sigma(\mathcal{A})&#x3D;\lambda(\mathcal{A})&#x3D;d(\mathcal{A})<br>$$</p>
 <p>进一步，假设$\mathcal{A}$本身就是一个（$X$上的）$\lambda$类，那么$\lambda(\mathcal{A})&#x3D;d(\mathcal{A})&#x3D;\mathcal{A}\xlongequal{Dynkin\text{定理}} \sigma(\mathcal{A})$，也即$\mathcal{A}&#x3D;\sigma(\mathcal{A})$为一个$\sigma$-代数，也即</p>
 <p>$$<br>\mathcal{A}\text{为}\sigma\text{-代数} \Leftrightarrow\mathcal{A}\text{既为}\lambda \text{类又为}\pi\text{类}<br>$$</p>
+<p>证明：</p>
+<p>首先注意到$\sigma(\mathcal{A})$一定是一个$\lambda$类，由$\lambda(\mathcal{A})$的定义，我们知道$\lambda(\mathcal{A}) \subset \sigma(\mathcal{A})$，下面我们将着力于证明$\sigma(\mathcal{A}) \subset \lambda(\mathcal{A})$，注意到$\mathcal{A} \subset \lambda(\mathcal{A})$，因此我们只需证明$\lambda(\mathcal{A})$是一个$\sigma$-代数（通过$\sigma$-代数定义中它需要满足的3个条件来证明）</p>
+<p>构造辅助集合</p>
+<p>$$<br>\lambda_1(\mathcal{A}) \xlongequal{\triangle} [A\in \lambda(\mathcal{A}):\forall C \in \mathcal{A}, A\cap C \in \lambda(\mathcal{A})]<br>$$</p>
 <h1 id="单调类定理"><a href="#单调类定理" class="headerlink" title="单调类定理"></a>单调类定理</h1><h2 id="m-类、单调类"><a href="#m-类、单调类" class="headerlink" title="$m$类、单调类"></a>$m$类、单调类</h2><p>假设$X$为全集，$\mathcal{A} \subset \mathcal{P}(X)$为一个集族，$A_1,A_2,\dots \in \mathcal{A}$为$\mathcal{A}$中的集合列，如果$A_1,A_2,\dots$满足下列二者之一，就称它为（$X$上的）<strong>单调类</strong>或$\boldsymbol{m}$<strong>类</strong></p>
 <ol>
 <li>$A_i\uparrow$，则$\lim_{n \rightarrow \infty} A_n &#x3D; \bigcup_{n&#x3D;1}^{\infty} A_n \in \mathcal{A}$</li>
@@ -86,17 +101,6 @@
       </categories>
       <tags>
         <tag>测度论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论笔记01·概率测度空间的建立</title>
-    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <categories>
-        <category>概率论</category>
-      </categories>
-      <tags>
-        <tag>概率与随机</tag>
       </tags>
   </entry>
 </search>
