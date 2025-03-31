@@ -396,6 +396,17 @@ c-10,0,-16.667,5,-20,15z M188 15 H145 v585 v600 v585 h43z"/></svg></span></span>
       </tags>
   </entry>
   <entry>
+    <title>概率论笔记01·概率测度空间的建立</title>
+    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
+    <content><![CDATA[<span id="more"></span>]]></content>
+      <categories>
+        <category>概率论</category>
+      </categories>
+      <tags>
+        <tag>概率与随机</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>测度论笔记01·单调类方法</title>
     <url>/2025/03/26/%E6%B5%8B%E5%BA%A6%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E5%8D%95%E8%B0%83%E7%B1%BB%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<div align="center">单调类方法在证明“某种性质的延拓”中的应用</div>
@@ -463,17 +474,6 @@ M0 50 h400000 v40H0z m0 194h40000v40H0z"/></svg></span></span></span></span></sp
       </categories>
       <tags>
         <tag>测度论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论笔记01·概率测度空间的建立</title>
-    <url>/2025/03/26/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B001%C2%B7%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6%E7%A9%BA%E9%97%B4%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
-    <content><![CDATA[<span id="more"></span>]]></content>
-      <categories>
-        <category>概率论</category>
-      </categories>
-      <tags>
-        <tag>概率与随机</tag>
       </tags>
   </entry>
 </search>
